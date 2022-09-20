@@ -1,1 +1,6 @@
- 
+.searchResults {
+    visibility: hidden
+}
+.time {
+    visibility: hidden
+} 

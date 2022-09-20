@@ -2,16 +2,40 @@
 
 <html lang="en">
 
-<head>
+<head title="Boogle">
 
-  <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
+
 
 </head>
 
-<body>
+<body id="body">
+    <style>
+        body {
+            background-image: url(https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80)\
+        }
+    </style>
+    .
 
-  <script type="text/javascript" src="./script.js"></script>
+    <h1>Boogle</h1>
+    <form>
+        <label for="SBar">Search Bar:</label><br>
+        <input type="text" id="query" name="query"><br>
+    </form>
+    <button onclick="apiSearch()">Search:</button>
+    <button>Current Time:</button>
 
+    <div id="searchResults"></div>
+    <div id="time"></div>
+
+
+    <script type="text/javascript" src="./script.js"></script>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha384-i61gTtaoovXtAbKjo903+O55Jkn2+RtzHtvNez+yI49HAASvznhe9sZyjaSHTau9" crossorigin="anonymous"></script>
 </body>
 
 </html>
