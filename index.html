@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+
+<head onclick="changeBackground()">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+
+
+    <title>Blazer</title>
+
+</head>
+
+<body id="body">
+
+    <h1 onclick="changeBackground()">Blazer</h1>
+
+    <form>
+        <input type="text" id="query" name="query"><br>
+    </form>
+    
+
+    <button onclick="callApiSearch()">Search</button>
+    <button id="btn" onclick="displayTime()">Current Time</button>
+
+    <div id="searchResults"></div>
+    <div id="time"></div>
+
+</body>
+
+
+</html>
